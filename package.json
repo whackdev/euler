@@ -4,7 +4,8 @@
   "description": "Solutions to the Euler problems from projecteuler.net in various languages",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest",
+    "watch": "jest --watchAll"
   },
   "keywords": [
     "Euler",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
     "ts-node-dev": "^1.0.0-pre.32",
     "tslint": "^5.12.0",
